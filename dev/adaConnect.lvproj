@@ -10,8 +10,8 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="geoAPI.vi" Type="VI" URL="../../../../Downloads/geoAPI.vi"/>
-		<Item Name="wetter.vi" Type="VI" URL="../../../../Downloads/wetter.vi"/>
+		<Item Name="geoAPI.vi" Type="VI" URL="../../helpers/api/geoAPI.vi"/>
+		<Item Name="wetter.vi" Type="VI" URL="../../wetter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
