@@ -1,4 +1,4 @@
-10/10/2019 12:05:36 AM
+10/10/2019 12:23:45 AM
 [General]
 Project: C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\dev\adaConnect.lvproj
 Target: My Computer
@@ -22,56 +22,23 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\Core\Deserializer\Deserializer\Deserializer.lvclass	8/3/2016 2:25:30 PM	1.0.0.0
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\lib\media\runtimeMenu.rtm	10/8/2019 2:56:04 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\lib\media\ada_home.ico	10/8/2019 9:50:12 AM
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\GetHelpDir.vi	10/6/2019 1:16:23 PM	4
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\BuildHelpPath.vi	10/6/2019 1:16:24 PM	5
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	10/6/2019 1:16:25 PM	2
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Get String Text Bounds.vi	10/6/2019 1:16:26 PM	3
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\picture\picture.llb\Get Text Rect.vi	10/6/2019 1:16:24 PM	38
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	10/6/2019 1:16:25 PM	2
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	10/6/2019 1:16:26 PM	29
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\miscctls.llb\LVRectTypeDef.ctl	10/6/2019 1:16:24 PM	3
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	10/6/2019 1:16:27 PM	588
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Three Button Dialog.vi	10/6/2019 1:16:24 PM	24
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	10/6/2019 1:16:25 PM	3
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Not Found Dialog.vi	10/6/2019 1:16:26 PM	12
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Set Bold Text.vi	10/6/2019 1:16:23 PM	20
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Clear Errors.vi	10/6/2019 1:17:26 PM	24
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\event_ctls.llb\eventvkey.ctl	10/6/2019 1:16:26 PM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\TagReturnType.ctl	10/6/2019 1:16:24 PM	3
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\ErrWarn.ctl	10/6/2019 1:16:24 PM	19
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Details Display Dialog.vi	10/6/2019 1:16:25 PM	310
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	10/6/2019 1:16:23 PM	37
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Find Tag.vi	10/6/2019 1:16:24 PM	15
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Format Message String.vi	10/6/2019 1:16:25 PM	197
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Error Code Database.vi	10/6/2019 1:16:26 PM	36
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	10/6/2019 1:16:25 PM	2
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Set String Value.vi	10/6/2019 1:16:24 PM	2
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Check Special Tags.vi	10/6/2019 1:16:26 PM	22
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	10/6/2019 1:17:26 PM	99
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Library\Null Value.vi	10/4/2019 11:28:15 PM	12
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\whitespace.ctl	10/6/2019 1:16:09 PM	15
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Trim Whitespace.vi	10/6/2019 1:16:11 PM	33
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	10/6/2019 1:16:26 PM	354
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\DialogType.ctl	10/6/2019 1:16:25 PM	8
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\General Error Handler.vi	10/6/2019 1:16:27 PM	201
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Simple Error Handler.vi	10/6/2019 1:16:25 PM	44
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Library\Adapt To Type.vi	10/4/2019 11:28:15 PM	91
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Library\Unflatten From JSON String.vi	10/4/2019 11:28:15 PM	85
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\AdvancedString\Path To Command Line String.vi	9/19/2018 1:04:38 AM	12
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\SmartPathToString.vi	9/19/2018 1:09:36 AM	6
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\LVLibp\Get Exported File List.vi	10/6/2019 1:17:26 PM	30
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\lvfile.llb\LVFileType.ctl	10/6/2019 1:17:26 PM	18
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	10/6/2019 1:17:26 PM	10
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\lvfile.llb\Get File Type.vi	10/6/2019 1:17:26 PM	102
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	10/6/2019 1:17:26 PM	19
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\Get Lib.vi	9/19/2018 1:09:36 AM	32
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\ClientHandle.ctl	9/19/2018 1:09:36 AM	3
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\GET.vi	9/19/2018 12:25:40 AM	39
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\lib\helpers\api\geoAPI.vi	10/7/2019 2:18:35 AM	11
-C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Platform\system.llb\System Exec.vi	10/6/2019 1:17:21 PM	98
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\wetter.vi	10/8/2019 6:37:32 PM	9
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Library\Waveform Cluster.ctl	10/4/2019 11:28:15 PM	3
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\VariantDataType\Type.ctl	9/19/2018 1:27:08 AM	17
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\ClientHandle.ctl	9/19/2018 1:09:36 AM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	10/6/2019 1:17:26 PM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\lvfile.llb\LVFileType.ctl	10/6/2019 1:17:26 PM	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\lvfile.llb\Get File Type.vi	10/6/2019 1:17:26 PM	102
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\LVLibp\Get Exported File List.vi	10/6/2019 1:17:26 PM	30
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	10/6/2019 1:17:26 PM	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\Get Lib.vi	9/19/2018 1:09:36 AM	32
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\AdvancedString\Path To Command Line String.vi	9/19/2018 1:04:38 AM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\SmartPathToString.vi	9/19/2018 1:09:36 AM	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\httpClient\GET.vi	9/19/2018 12:25:40 AM	39
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Library\Unflatten From JSON String.vi	10/4/2019 11:28:15 PM	85
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Lexer\JSON Token Type.ctl	10/4/2019 11:28:17 PM	17
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Parser\Parse Floating Point String As Extended.vi	10/4/2019 11:28:16 PM	21
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\Parser\Lookahead.vi	10/4/2019 11:28:16 PM	76
@@ -137,6 +104,37 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2018\user.lib\_OpenG.lib\lvd
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\user.lib\_OpenG.lib\lvdata\lvdata.llb\Reshape Array to 1D VArray__ogtk.vi	10/4/2019 11:27:50 PM	44
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\user.lib\_OpenG.lib\lvdata\lvdata.llb\Array to Array of VData__ogtk.vi	10/4/2019 11:27:49 PM	31
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\miscctls.llb\LVDateTimeRec.ctl	9/19/2018 12:09:25 AM	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Library\Adapt To Type.vi	10/4/2019 11:28:15 PM	91
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\DialogType.ctl	10/6/2019 1:16:25 PM	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\TagReturnType.ctl	10/6/2019 1:16:24 PM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Check Special Tags.vi	10/6/2019 1:16:26 PM	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Set String Value.vi	10/6/2019 1:16:24 PM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	10/6/2019 1:16:25 PM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Error Code Database.vi	10/6/2019 1:16:26 PM	36
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	10/6/2019 1:16:23 PM	37
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Find Tag.vi	10/6/2019 1:16:24 PM	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Set Bold Text.vi	10/6/2019 1:16:23 PM	20
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Format Message String.vi	10/6/2019 1:16:25 PM	197
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	10/6/2019 1:16:25 PM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\miscctls.llb\LVRectTypeDef.ctl	10/6/2019 1:16:24 PM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	10/6/2019 1:16:25 PM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\picture\picture.llb\Get Text Rect.vi	10/6/2019 1:16:24 PM	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	10/6/2019 1:16:26 PM	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	10/6/2019 1:16:25 PM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Get String Text Bounds.vi	10/6/2019 1:16:26 PM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	10/6/2019 1:16:27 PM	588
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Three Button Dialog.vi	10/6/2019 1:16:24 PM	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\GetHelpDir.vi	10/6/2019 1:16:23 PM	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\BuildHelpPath.vi	10/6/2019 1:16:24 PM	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Not Found Dialog.vi	10/6/2019 1:16:26 PM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Clear Errors.vi	10/6/2019 1:17:26 PM	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\event_ctls.llb\eventvkey.ctl	10/6/2019 1:16:26 PM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\ErrWarn.ctl	10/6/2019 1:16:24 PM	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Details Display Dialog.vi	10/6/2019 1:16:25 PM	310
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Platform\system.llb\System Exec.vi	10/6/2019 1:17:21 PM	98
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	10/6/2019 1:16:26 PM	354
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\General Error Handler.vi	10/6/2019 1:16:27 PM	201
+C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\Utility\error.llb\Simple Error Handler.vi	10/6/2019 1:16:25 PM	44
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\Core\Deserializer\Deserializer\Unflatten From String.vi	10/4/2019 11:27:30 PM	38
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Deserializer\1D Array of VArrays to MultiD Array.vi	10/4/2019 11:28:17 PM	95
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Deserializer\Read Nulls as Defaults.vi	10/4/2019 11:28:17 PM	52
@@ -185,15 +183,17 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Lexer\Create JSON Lexer.vi	10/4/2019 11:28:16 PM	60
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Parser\Parse JSON String.vi	10/4/2019 11:28:16 PM	56
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Parser\Match End.vi	10/4/2019 11:28:16 PM	39
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\lib\helpers\api\geoAPI.vi	10/7/2019 2:18:35 AM	11
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\wetter.vi	10/8/2019 6:37:32 PM	9
 
 [Output File Version]
-SharedLib.dll	1.0.0.3
+SharedLib.dll	1.0.0.4
 
 [Output Files]
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.dll	10/10/2019 12:06:09 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.aliases	10/10/2019 12:06:02 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.ini	10/10/2019 12:06:02 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.h	10/10/2019 12:06:04 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.dll	10/10/2019 12:24:17 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.aliases	10/10/2019 12:24:11 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.ini	10/10/2019 12:24:11 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.h	10/10/2019 12:24:13 AM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\extcode.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\fundtypes.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\hosttype.h	9/18/2018 9:15:36 PM
@@ -202,8 +202,8 @@ C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteD
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\lv_epilog.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\lv_prolog.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\platdefines.h	9/18/2018 9:15:36 PM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.lib	10/10/2019 12:06:08 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\Support Directory.lvlib	10/10/2019 12:06:02 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.lib	10/10/2019 12:24:16 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\Support Directory.lvlib	10/10/2019 12:24:11 AM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\ada_home.ico	10/8/2019 9:50:12 AM
 
-10/10/2019 12:06:09 AM
+10/10/2019 12:24:17 AM

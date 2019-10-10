@@ -16,7 +16,6 @@
 		<Item Name="ada_home.ico" Type="Document" URL="../../lib/media/ada_home.ico"/>
 		<Item Name="geoAPI.vi" Type="VI" URL="../../lib/helpers/api/geoAPI.vi"/>
 		<Item Name="runtimeMenu.rtm" Type="Document" URL="../../lib/media/runtimeMenu.rtm"/>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../../Untitled 1.vi"/>
 		<Item Name="wetter.vi" Type="VI" URL="../../wetter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -144,7 +143,33 @@
 				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[0].SoftDepCount" Type="Int">13</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{3B195EBF-4A09-46E6-8EAD-931568C1344C}</Property>
-				<Property Name="DistPartCount" Type="Int">1</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{28BFBCB6-5EEE-47F1-A894-FCD877057827}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI LabWindows/CVI Shared Runtime 2017</Property>
+				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">Analysis Support</Property>
+				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{86208B51-159E-4F6F-9C62-0D5EFC9324D8}</Property>
+				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">.NET Support</Property>
+				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{0DDB211A-941B-4125-9518-E81E10409F2E}</Property>
+				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">TDMS Support</Property>
+				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{5A8AF88D-486D-4E30-A7A5-8D8A039BBEBF}</Property>
+				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">Network Variable Support</Property>
+				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{15CE39FE-1354-484D-B8CA-459077449FB3}</Property>
+				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">Network Streams Support</Property>
+				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{40A5AD7F-4BAF-4A5C-8B56-426B84F75C05}</Property>
+				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">Low-Level Driver Support</Property>
+				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{20931852-6AA9-4918-926B-130D07A4CF8B}</Property>
+				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">Dev (Patch 1) Support</Property>
+				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{C6F76062-CDCB-4931-8580-012AF2152602}</Property>
+				<Property Name="DistPart[1].SoftDepCount" Type="Int">7</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{80D3D303-75B9-4607-9312-E5FC68E5BFD2}</Property>
+				<Property Name="DistPartCount" Type="Int">2</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/adaConnect/ada_suite_installer-1.0</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
@@ -152,13 +177,12 @@
 				<Property Name="INST_defaultDir" Type="Str">{258CC094-5B41-40B2-A7B0-856C28AA6022}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">adaConnect</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.1.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Inspyre Technologies</Property>
 				<Property Name="MSI_arpContact" Type="Str">Taylor-Jayde Blackstone</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://inspyre.tech</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{A99E7298-A8A1-4BB5-997B-9BEACCC0C63D}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
@@ -219,7 +243,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{310E663D-53FC-4B52-8CA3-92CEA4739DCD}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
@@ -231,19 +255,19 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaConnect/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ada_home.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BFE51A76-2AB0-48FE-A0A3-4C0A693470E9}</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{11A98021-AC70-4777-88AE-B23562A5F2B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/wetter.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ada_home.ico</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/runtimeMenu.rtm</Property>
+				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/runtimeMenu.rtm</Property>
-				<Property Name="Source[3].lvfile" Type="Bool">true</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/geoAPI.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">Inspyre Technologies</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">adaConnect is the main hub software for adaHome</Property>
@@ -271,7 +295,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{C633BD35-04D4-4F9D-BAB9-892B86B24229}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../builds/adaConnect/adaSuiteDLL/adaConnect_adaSuiteDLL_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">SharedLib.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuiteDLL/SharedLib.dll</Property>
