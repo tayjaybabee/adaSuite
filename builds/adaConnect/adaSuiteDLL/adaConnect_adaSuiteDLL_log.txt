@@ -1,4 +1,4 @@
-10/8/2019 9:23:50 PM
+10/8/2019 9:37:11 PM
 [General]
 Project: C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\dev\adaConnect.lvproj
 Target: My Computer
@@ -186,38 +186,24 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\
 C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\Serialization\JSON\Deserializer\JSON Parser\Match End.vi	10/4/2019 11:28:16 PM	39
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\wetter.vi	10/8/2019 6:37:32 PM	9
 
-[ERROR]
-Code:16
-CodeSignAPI.lvlib:Get Signing Error String.vi<ERR>
-Error: Could not sign the file. You may not have permisson to sign the file with the selected certificate, the file is write-protected, or an unknown error occurred.
-
-
-<b>Complete call chain:</b>
-     CodeSignAPI.lvlib:Get Signing Error String.vi
-     CodeSignAPI.lvlib:Sign with Certificate.vi
-     AB_Application.lvclass:PostBuild.vi
-     AB_Engine_Build.vi
-     AB_Build_Invoke.vi
-     AB_Build_Invoke.vi.ProxyCaller
+[Output File Version]
+SharedLib.dll	1.0.0.2
 
 [Output Files]
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.dll	10/8/2019 9:37:50 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.aliases	10/8/2019 9:37:44 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.ini	10/8/2019 9:37:44 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.h	10/8/2019 9:37:45 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\extcode.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\fundtypes.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\hosttype.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\ILVDataInterface.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\ILVTypeInterface.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\lv_epilog.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\lv_prolog.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\platdefines.h	9/18/2018 9:15:36 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.lib	10/8/2019 9:37:48 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\Support Directory.lvlib	10/8/2019 9:37:44 PM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\ada_home.ico	10/8/2019 9:50:12 AM
 
-
-[Errors]
-Click the link below to visit the Application Builder support page. Use the following information as a reference:
-
-Error 16 occurred at CodeSignAPI.lvlib:Get Signing Error String.vi
-
-Possible reason(s):
-
-Error: Could not sign the file. You may not have permisson to sign the file with the selected certificate, the file is write-protected, or an unknown error occurred.
-
-
-Complete call chain:
-     CodeSignAPI.lvlib:Get Signing Error String.vi
-     CodeSignAPI.lvlib:Sign with Certificate.vi
-     AB_Application.lvclass:PostBuild.vi
-     AB_Engine_Build.vi
-     AB_Build_Invoke.vi
-     AB_Build_Invoke.vi.ProxyCaller
-10/8/2019 9:24:59 PM
+10/8/2019 9:37:50 PM

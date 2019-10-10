@@ -16,6 +16,7 @@
 		<Item Name="ada_home.ico" Type="Document" URL="../../lib/media/ada_home.ico"/>
 		<Item Name="geoAPI.vi" Type="VI" URL="../../lib/helpers/api/geoAPI.vi"/>
 		<Item Name="runtimeMenu.rtm" Type="Document" URL="../../lib/media/runtimeMenu.rtm"/>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../Untitled 1.vi"/>
 		<Item Name="wetter.vi" Type="VI" URL="../../wetter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -151,7 +152,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{258CC094-5B41-40B2-A7B0-856C28AA6022}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">adaConnect</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.1.4</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Inspyre Technologies</Property>
@@ -218,7 +219,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{310E663D-53FC-4B52-8CA3-92CEA4739DCD}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">3</Property>
@@ -251,6 +252,70 @@
 				<Property Name="TgtF_productName" Type="Str">adaHome</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D3C34D25-71C6-4BEA-A3CC-97B04286165C}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ada_home.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="adaSuiteDLL" Type="DLL">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9488A698-0288-485E-B230-2CF8D1F89E53}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4C4BF08C-0BB7-431B-BB3B-A6B1CF8B2419}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{2B7C570E-3079-4FDA-B727-CCE4DE4D1D09}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">adaSuiteDLL</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuiteDLL</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C633BD35-04D4-4F9D-BAB9-892B86B24229}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../builds/adaConnect/adaSuiteDLL/adaConnect_adaSuiteDLL_log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SharedLib.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuiteDLL/SharedLib.dll</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].libraryName" Type="Str">Support Directory.lvlib</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuiteDLL/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">New Destination</Property>
+				<Property Name="Destination[2].libraryName" Type="Str">New Destination.lvlib</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/ada_suite_installer-1.0/Volume</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{CB05E259-EDEB-4979-99E7-52304EA7B005}</Property>
+				<Property Name="Dll_includeHeaders" Type="Bool">true</Property>
+				<Property Name="Dll_libGUID" Type="Str">{43368E7E-9C0F-445C-BEEA-D4B7F7FC72CA}</Property>
+				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6D3BA956-646E-4524-97AA-42F3A988C5E6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/wetter.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/geoAPI.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/runtimeMenu.rtm</Property>
+				<Property Name="Source[3].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/ada_home.ico</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="TgtF_companyName" Type="Str">Inspyre Technologies</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">adaSuiteDLL</Property>
+				<Property Name="TgtF_internalName" Type="Str">adaSuiteDLL</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
+				<Property Name="TgtF_productName" Type="Str">adaSuiteDLL</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7B30C486-B5E5-4324-9EBE-27C10FF384BE}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SharedLib.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
