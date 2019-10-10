@@ -1,4 +1,4 @@
-10/10/2019 12:36:25 AM
+10/10/2019 12:52:46 AM
 [General]
 Project: C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\dev\adaConnect.lvproj
 Target: My Computer
@@ -187,13 +187,13 @@ C:\Program Files (x86)\National Instruments\LabVIEW 2018\vi.lib\addons\_JKI.lib\
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\wetter.vi	10/10/2019 12:32:09 AM	10
 
 [Output File Version]
-SharedLib.dll	1.0.0.5
+SharedLib.dll	1.0.0.6
 
 [Output Files]
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.dll	10/10/2019 12:36:51 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.aliases	10/10/2019 12:36:48 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.ini	10/10/2019 12:36:48 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.h	10/10/2019 12:36:49 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.dll	10/10/2019 12:53:14 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.aliases	10/10/2019 12:53:10 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.ini	10/10/2019 12:53:10 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.h	10/10/2019 12:53:11 AM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\extcode.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\fundtypes.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\hosttype.h	9/18/2018 9:15:36 PM
@@ -202,8 +202,8 @@ C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteD
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\lv_epilog.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\lv_prolog.h	9/18/2018 9:15:36 PM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\platdefines.h	9/18/2018 9:15:36 PM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.lib	10/10/2019 12:36:51 AM
-C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\Support Directory.lvlib	10/10/2019 12:36:48 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\SharedLib.lib	10/10/2019 12:53:13 AM
+C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\Support Directory.lvlib	10/10/2019 12:53:10 AM
 C:\Users\tayja\OneDrive\Documents\GitHub\adaTerminal\builds\adaConnect\adaSuiteDLL\data\ada_home.ico	10/8/2019 9:50:12 AM
 
-10/10/2019 12:36:52 AM
+10/10/2019 12:53:14 AM
