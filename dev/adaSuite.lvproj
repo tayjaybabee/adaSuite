@@ -89,8 +89,8 @@
 						<Item Name="runtimeMenu.rtm" Type="Document" URL="../../lib/resources/ui/menus/runtimeMenu.rtm"/>
 					</Item>
 					<Item Name="switches" Type="Folder">
-						<Item Name="switchDev.ctl" Type="VI" URL="../../lib/resources/ui/switches/switchDev.ctl"/>
-						<Item Name="Control 1.ctl" Type="VI" URL="../../lib/resources/ui/switches/Control 1.ctl"/>
+						<Item Name="switchDev.ctl" Type="VI" URL="/D/Users/dhein/src/adaSuite/lib/resources/ui/switches/switchDev.ctl"/>
+						<Item Name="Control 1.ctl" Type="VI" URL="/D/Users/dhein/src/adaSuite/lib/resources/ui/switches/Control 1.ctl"/>
 					</Item>
 				</Item>
 			</Item>
