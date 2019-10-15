@@ -249,20 +249,15 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuite/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/lib/media/images/common/icons/ico/32x32/ada_home32x32.ico</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{812F51A5-6610-448F-94F0-99E9C0FF6436}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{61781A4F-0430-48B5-93BE-9F0B231644B1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/lib/resources/ui/main/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Inspyre Technologies</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">adaSuite</Property>
 				<Property Name="TgtF_internalName" Type="Str">adaSuite</Property>
@@ -340,7 +335,6 @@
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{8FE914AD-6C69-4B01-A660-754EC31A7952}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/adaSuite/lib/docs/GNU General Public License 2.0 - English.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{25BC7EB0-219F-465F-A4E9-55C633B6BDC8}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Hello, my friend. Welcome to your new Artificial-intelligence Driven Assistant. Press 'Next' to install ADA...</Property>
@@ -349,35 +343,26 @@
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{537CC627-E3C1-4633-8CD7-9F67F3918EDD}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{56481889-2030-40B0-AD99-72ECB34A3F19}</Property>
+				<Property Name="Source[0].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">adaSuite.exe</Property>
+				<Property Name="Source[0].File[0].runEXE" Type="Bool">true</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">adaSuite</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">adaSuite</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{BC7AD0F3-73FF-4D2B-AE6F-41D1D94AAB7B}</Property>
-				<Property Name="Source[0].name" Type="Str">decorationTitleTrim1.png</Property>
-				<Property Name="Source[0].tag" Type="Ref"></Property>
-				<Property Name="Source[0].type" Type="Str">File</Property>
-				<Property Name="Source[1].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">adaSuite</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/adaSuite</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].File[0].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
 				<Property Name="Source[1].File[0].name" Type="Str">adaSuite.exe</Property>
-				<Property Name="Source[1].File[0].runEXE" Type="Bool">true</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].name" Type="Str">adaSuite</Property>
-				<Property Name="Source[1].File[0].Shortcut[0].subDir" Type="Str">adaSuite</Property>
-				<Property Name="Source[1].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[1].File[0].tag" Type="Str">{BC7AD0F3-73FF-4D2B-AE6F-41D1D94AAB7B}</Property>
-				<Property Name="Source[1].FileCount" Type="Int">1</Property>
-				<Property Name="Source[1].name" Type="Str">adaSuite</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/Build Specifications/adaSuite</Property>
-				<Property Name="Source[1].type" Type="Str">EXE</Property>
-				<Property Name="Source[2].dest" Type="Str">{56481889-2030-40B0-AD99-72ECB34A3F19}</Property>
 				<Property Name="Source[2].File[0].dest" Type="Str">{56481889-2030-40B0-AD99-72ECB34A3F19}</Property>
 				<Property Name="Source[2].File[0].name" Type="Str">geoAPI.vi</Property>
 				<Property Name="Source[2].File[0].tag" Type="Ref"></Property>
-				<Property Name="Source[2].FileCount" Type="Int">1</Property>
-				<Property Name="Source[2].name" Type="Str">lib</Property>
-				<Property Name="Source[2].tag" Type="Ref"></Property>
-				<Property Name="Source[2].type" Type="Str">Folder</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="My DLL" Type="DLL">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
