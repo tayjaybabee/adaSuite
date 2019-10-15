@@ -12,6 +12,8 @@
 *.exe
 
 # Metadata
-*.aliases
-*.lvlps
+bin/application/
+bin/installer/
+builds/
+Volume/
 .cache/
