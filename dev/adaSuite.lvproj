@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -103,6 +103,12 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="ada-alpha-license.rtf" Type="Document" URL="../../lib/docs/license/ada-alpha-license.rtf"/>
+		<Item Name="welcome1.bmp" Type="Document" URL="../../lib/media/images/installer/welcome1.bmp"/>
+		<Item Name="banner.bmp" Type="Document" URL="../../lib/media/images/installer/banner.bmp"/>
+		<Item Name="README.rtf" Type="Document" URL="../../lib/docs/readme/README.rtf"/>
+		<Item Name="Control .ctl" Type="VI" URL="../../lib/media/images/apps/wetter/home/Control .ctl"/>
+		<Item Name="wetter_main.vi" Type="VI" URL="../../lib/media/images/apps/wetter/home/wetter_main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -193,6 +199,8 @@
 				<Item Name="Sound File Read Open.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read Open.vi"/>
 				<Item Name="Sound File Read Simple.vi" Type="VI" URL="/&lt;vilib&gt;/sound2/lvsound2.llb/Sound File Read Simple.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Dark Sky Weather Data for LabVIEW.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Dark Sky Weather Data for LabVIEW/Dark Sky Weather Data for LabVIEW.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
@@ -225,49 +233,92 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="adaSuite" Type="EXE">
+			<Item Name="adaSuite-a1.0.0b12" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{03FB2C60-B6CB-4F38-9638-7384791FFFEA}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{17080D0A-AFC3-4764-B8DF-C80DC1CFFAD4}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{222EF8CB-7F80-42D0-8EB5-A0B62E42232E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">adaSuite</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">adaSuite-a1.0.0b12</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuite</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4D66EFED-FBFC-4689-A6DB-2F633676F340}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">adaSuite.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuite/adaSuite.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">adaSuite-a1.0.0b12.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuite-a1.0.0b12.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/adaSuite/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/lib</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/lib/media/images/common/icons/ico/32x32/ada_home32x32.ico</Property>
+				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{61781A4F-0430-48B5-93BE-9F0B231644B1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7D5969E0-8C92-4C17-BC9C-30CB37DBAAC0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/lib/resources/ui/main/main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/lib/resources/ui/switches</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ada-alpha-license.rtf</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/welcome1.bmp</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/banner.bmp</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/README.rtf</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/lib/media</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="Source[7].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/lib/helpers</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/lib/resources/ui/dialogs</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="Source[9].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/lib/resources/ui/menus</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
 				<Property Name="TgtF_companyName" Type="Str">Inspyre Technologies</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">adaSuite</Property>
-				<Property Name="TgtF_internalName" Type="Str">adaSuite</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">adaSuite-a1.0.0b12</Property>
+				<Property Name="TgtF_internalName" Type="Str">adaSuite-a1.0.0b12</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">adaSuite</Property>
+				<Property Name="TgtF_productName" Type="Str">adaSuite-a1.0.0b12</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BC7AD0F3-73FF-4D2B-AE6F-41D1D94AAB7B}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">adaSuite.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">adaSuite-a1.0.0b12.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="adaSuite Installer" Type="Installer">
+			<Item Name="adaSuite-installer1.0.0b07" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">adaSuite</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{56481889-2030-40B0-AD99-72ECB34A3F19}</Property>
@@ -276,7 +327,11 @@
 				<Property Name="Destination[1].parent" Type="Str">{56481889-2030-40B0-AD99-72ECB34A3F19}</Property>
 				<Property Name="Destination[1].tag" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].name" Type="Str">installer</Property>
+				<Property Name="Destination[2].parent" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{2753D845-EA95-4D08-9E67-E983EB3EA59F}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{E74645B5-DED7-49B8-A4C7-B4BC6E1BDD55}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f4</Property>
@@ -320,23 +375,27 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{3B195EBF-4A09-46E6-8EAD-931568C1344C}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/adaSuite/adaSuite Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/adaSuite/adaSuite-installer1.0.0b07</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">adaSuite Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">adaSuite-installer1.0.0b07</Property>
 				<Property Name="INST_defaultDir" Type="Str">{56481889-2030-40B0-AD99-72ECB34A3F19}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">adaSuite</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.9</Property>
+				<Property Name="INST_readmeID" Type="Ref">/My Computer/README.rtf</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18018011</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Inspyre Technologies</Property>
 				<Property Name="MSI_arpContact" Type="Str">Taylor-Jayde Blackstone</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://inspyre.tech</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_bannerImageID" Type="Ref">/My Computer/banner.bmp</Property>
 				<Property Name="MSI_distID" Type="Str">{8FE914AD-6C69-4B01-A660-754EC31A7952}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/ada-alpha-license.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{25BC7EB0-219F-465F-A4E9-55C633B6BDC8}</Property>
+				<Property Name="MSI_welcomeImageID" Type="Ref">/My Computer/welcome1.bmp</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Hello, my friend. Welcome to your new Artificial-intelligence Driven Assistant. Press 'Next' to install ADA...</Property>
 				<Property Name="MSI_windowTitle" Type="Str">The Genesis of You</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
@@ -345,16 +404,19 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">adaSuite.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">adaSuite-a1.0.0b12.exe</Property>
 				<Property Name="Source[0].File[0].runEXE" Type="Bool">true</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">adaSuite</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">adaSuite</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">adaSuite</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str">adaSuite</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{BC7AD0F3-73FF-4D2B-AE6F-41D1D94AAB7B}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">adaSuite</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/adaSuite</Property>
+				<Property Name="Source[0].name" Type="Str">adaSuite-a1.0.0b12</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/adaSuite-a1.0.0b12</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="Source[1].File[0].dest" Type="Str">{158EAFC9-7C80-4793-A0E2-D58CF18D494E}</Property>
 				<Property Name="Source[1].File[0].name" Type="Str">adaSuite.exe</Property>
@@ -363,49 +425,6 @@
 				<Property Name="Source[2].File[0].name" Type="Str">geoAPI.vi</Property>
 				<Property Name="Source[2].File[0].tag" Type="Ref"></Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="My DLL" Type="DLL">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{34DE56C2-863C-4AC1-B749-CBA2B74F181C}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{720C1052-96E5-4EFE-B4F2-0E75982C6688}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{40D16DDF-A8C1-4048-97F4-2FF2D304C876}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">My DLL</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My DLL</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DFEE18C0-1E8A-4C11-B78A-0BDD0A3E1D28}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SharedLib.dll</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My DLL/SharedLib.dll</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My DLL/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Dll_compatibilityWith2011" Type="Bool">false</Property>
-				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
-				<Property Name="Dll_headerGUID" Type="Str">{B7D73A7C-79FD-4ADC-BC64-D49EF1D067F7}</Property>
-				<Property Name="Dll_libGUID" Type="Str">{462ED2EA-8C0C-46CB-8193-C361C6363AB1}</Property>
-				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{812F51A5-6610-448F-94F0-99E9C0FF6436}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">My DLL</Property>
-				<Property Name="TgtF_internalName" Type="Str">My DLL</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 </Property>
-				<Property Name="TgtF_productName" Type="Str">My DLL</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{9469833C-CCB2-45C6-BA20-9855AC7CBC4D}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SharedLib.dll</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
