@@ -12,8 +12,8 @@
 *.exe
 
 # Metadata
-bin\application\
-bin\installer\
-builds\
-Volume\
-cache\
+bin/application/
+bin/installer/
+builds/
+Volume/
+cache/
